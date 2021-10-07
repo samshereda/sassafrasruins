@@ -29,7 +29,6 @@ header,
 footer {
   letter-spacing: 2px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .carousel {
@@ -149,8 +148,8 @@ section > header {
 }
 
 h1 {
-  font-family: minion-pro, serif;
   font-weight: 400;
+  font-family: minion-pro, serif;
   font-style: italic;
 }
 
