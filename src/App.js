@@ -2,6 +2,7 @@ import logo from './images/logo.png';
 import './App.css';
 import Carousel, { CarouselItem } from './Carousel';
 import Gallery, { GalleryItem } from './Gallery';
+import ContactForm from './ContactForm';
 
 function importAll(r) {
   return r.keys().map((item, index) => {
@@ -99,9 +100,7 @@ function App() {
         <header>
           <h1>Contact</h1>
         </header>
-        <form>
-          <submit></submit>
-        </form>
+        <ContactForm />
       </section>
       <div className="pre-footer">
         <a href="https://www.instagram.com/sassafras.inc/">
