@@ -99,9 +99,9 @@ function App() {
         <header>
           <h1>Contact</h1>
         </header>
-        <div className="placeholder">
-          <p>Coming Soon</p>
-        </div>
+        <form>
+          <submit></submit>
+        </form>
       </section>
       <div className="pre-footer">
         <a href="https://www.instagram.com/sassafras.inc/">
