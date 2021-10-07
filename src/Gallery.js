@@ -33,17 +33,17 @@ const Gallery = ({ galleryImages }) => {
           </div>
         );
       })}
-      <div {...handlers} class="container" style={containerStyle}>
+      <div {...handlers} className="container" style={containerStyle}>
         <div
           onClick={() => {
             console.log('clicked');
             setContainerStyle({ display: 'none' });
           }}
-          class="closebtn"
+          className="closebtn"
         >
           &times;
         </div>
-        <div class="image-container">
+        <div className="image-container">
           <img
             id="expandedImg"
             src={galleryImages[expandedImageIndex]}
