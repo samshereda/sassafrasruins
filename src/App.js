@@ -131,8 +131,9 @@ function App() {
       <footer>
         <p>
           The Ruins at Sassafras Farm, 194 Darrow Road, New Lebanon NY 12125,
-          USA 617-990-4359
+          USA
         </p>
+        <p>617-990-4359</p>
       </footer>
     </div>
   );
