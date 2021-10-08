@@ -60,22 +60,77 @@ function App() {
           <h1 id="announcement">Opening Summer 2022</h1>
         </header>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          On a mountaintop in the Hudson Valley, nestled between the Berkshires
+          and the Taconics, lies a 78-acre estate imbued with pure magic.
         </p>
+
+        <h2>Step back in history to celebrate your future.</h2>
+
+        <p>
+          Once the settlement of 80 Shakers, The Ruins at Sassafras Farm
+          resonates with history and natural beauty and promises a setting that
+          defines unique—truly one of a kind.
+        </p>
+        <br />
+        
       </section>
       <section id="map-section" className="yellow-section">
         <header>
           <h1>Map</h1>
         </header>
-        <div className="placeholder">
-          <p>Coming Soon</p>
-        </div>
+        <p>
+          Host your rehearsal dinner in the historic <b>barn ruins</b> as flames
+          from two Indonesian fire pits illuminate your party and the rush of a
+          mountain stream cools a summer night.
+        </p>
+        <br />
+        <p>
+          Did someone say cigar bar? The historic <b>hay ramp</b> ruins climb 10
+          feet above the barn ruins. Sit down on high and enjoy a Havana.
+        </p>
+        <br />
+        <p>
+          Your wedding party can stay in the <b>stone house</b> with five en
+          suite bedrooms, a sitting room, kitchen, and family room. This newly
+          renovated former Shaker workshop combines original architecture with
+          21st-century amenities. Terrace views transport you to Provence while
+          exposed beams, original wide-board pine floors, and the simple
+          elegance of 19th century woodwork ground you in America’s past.
+        </p>
+        <br />
+        <p>
+          The two-bedroom <b>Caretaker’s Cottage</b>, overlooking the Lebanon
+          Valley, provides a rustic bridal suite, guest house, or pre-wedding
+          prep location.
+        </p>
+        <br />
+        <p>
+          And for the adventurous, the <b>Smoke House</b> sleeps one or two
+          guests in a stone and brick summer bedroom with full bath.
+        </p>
+        <br />
+        <p>
+          You can choose the scent of climbing roses and lavender to adorn your
+          <b> Rose Dwelling</b> ceremony while musicians serenade you from the
+          gazebo. Or exchange vows on the shores of <b>Deere Pond</b>, with a
+          forest backdrop and willow tree canopy. Large-mouth bass and blue gill
+          will attend.
+        </p>
+        <br />
+        <p>
+          <b>The Chair Factory</b>, a wooden barn structure built in 1847, was
+          the last facility in the area to make a Shaker chair. Tables of wood
+          recycled from the factory seat 250 guests. Two bathrooms, a bar,
+          stage, dance floor, and terrace offer everything you need to celebrate
+          with family and friends.
+        </p>
+        <br />
+        <p>
+          <b>The Ruins at Sassafras Farm</b> offers so much more: hiking paths,
+          a wild flower meadow, perennial gardens, 200-year old stone walls,
+          situated on the border between Massachusetts and New York on historic
+          Mt. Lebanon.
+        </p>
       </section>
       <section id="history-section">
         <header>
@@ -100,6 +155,10 @@ function App() {
         <header>
           <h1>Contact</h1>
         </header>
+        <p>
+          We want to hear about your special day! Please fill in the details
+          below, and we’ll get back to you soon.
+        </p>
         <ContactForm />
       </section>
       <div className="pre-footer">
