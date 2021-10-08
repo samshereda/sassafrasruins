@@ -89,12 +89,13 @@ function App() {
         </p>
         <br />
         <p>
-          Your wedding party can stay in the <b>stone house</b> with five en
-          suite bedrooms, a sitting room, kitchen, and family room. This newly
-          renovated former Shaker workshop combines original architecture with
-          21st-century amenities. Terrace views transport you to Provence while
-          exposed beams, original wide-board pine floors, and the simple
-          elegance of 19th century woodwork ground you in America’s past.
+          Your wedding party can stay in the <b>stone house</b> with five{' '}
+          <em>en suite</em> bedrooms, a sitting room, kitchen, and family room.
+          This newly renovated former Shaker workshop combines original
+          architecture with 21st-century amenities. Terrace views transport you
+          to Provence while exposed beams, original wide-board pine floors, and
+          the simple elegance of 19th century woodwork ground you in America’s
+          past.
         </p>
         <br />
         <p>
@@ -154,10 +155,6 @@ function App() {
         <header>
           <h1>Contact</h1>
         </header>
-        <p>
-          We want to hear about your special day! Please fill in the details
-          below, and we’ll get back to you soon.
-        </p>
         <ContactForm />
       </section>
       <div className="pre-footer">

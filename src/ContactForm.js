@@ -9,16 +9,20 @@ function ContactForm() {
 
   return (
     <form id="contact_form" onSubmit={handleSubmit}>
+      <p>
+        We want to hear about your special day! Please fill in the details
+        below, and we’ll get back to you soon.
+      </p>
       <br />
       <div id="name">
-        <label htmlFor="first_name">First Name * </label>
+        <label htmlFor="first_name">First Name* </label>
         <input id="first_name" name="first_name" type="text" required />
         <ValidationError
           prefix="First name"
           field="first_name"
           errors={state.errors}
         />
-        <label htmlFor="last_name">Last Name * </label>
+        <label htmlFor="last_name">Last Name* </label>
         <input name="last_name" type="text" id="last_name" required />
         <ValidationError
           prefix="Last name"
@@ -27,14 +31,14 @@ function ContactForm() {
         />
       </div>
       <br />
-      <div >
-        <label htmlFor="email">Email * </label>
+      <div>
+        <label htmlFor="email">Email* </label>
         <input name="email" type="email" id="email" required />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
       <br />
       <div>
-        <label htmlFor="phone">Phone Number:</label>
+        <label htmlFor="phone">Phone Number*</label>
         <input name="phone" type="tel" id="phone" required />
         <ValidationError
           prefix="Phone number"
