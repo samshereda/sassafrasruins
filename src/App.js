@@ -173,18 +173,14 @@ function App() {
           used by the Shakers and a perfectly intact bottle of Shaker Hair
           Restorer. As we collected our finds, one thing became clear to us.
         </p>
-        <br />
-        <p>Our treasure must be shared.</p>
-        <br />
+        <h2>Our treasure must be shared.</h2>
         <p>
           We decided to open an event venue and named it The Ruins at Sassafras
           Farm--The Ruins for obvious reasons and Sassafras Farm because the
           Shakers grew Sassafras trees and used the roots for medicine. Plus we
           liked the fiesty, fun quality of the name Sassafras.
         </p>
-        <br />
-        <p>The Shakers</p>
-        <br />
+        <h3>The Shakers</h3>
         <p>
           Our property is one of five Shaker settlements, or families, in The
           Mount Lebanon Shaker Village, located on the west side of Mount
