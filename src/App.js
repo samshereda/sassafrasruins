@@ -78,11 +78,11 @@ function App() {
           <h1>Our Property</h1>
         </header>
         <p>
-          We are located a little over two hours from Boston and 2 1/2 hours
-          from New York city. Our property offers a variety of settings for your
-          celebration and your guests will love exploring the woods, wild flower
-          meadows, and historic artifacts. Extra metal detectors available for
-          budding archeologists.
+          We are located a little over two hours from Boston and two and a half
+          hours from New York city. Our property offers a variety of settings
+          for your celebration and your guests will love exploring the woods,
+          wild flower meadows, and historic artifacts. Extra metal detectors
+          available for budding archeologists.
         </p>
         <br />
         <p>
