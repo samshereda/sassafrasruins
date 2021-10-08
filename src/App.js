@@ -25,16 +25,16 @@ function App() {
         <div className="header-inner">
           <img id="logo" src={logo} className="App-logo" alt="logo" />
           <nav>
-            <div>
+            <div id="about">
               <a href="/#about-section">About</a>
             </div>
             <div id="history">
               <a href="/#map-section">Our Property</a>
             </div>
-            {/* <div id="history">
-              <a href="/#history-section">History</a>
-            </div> */}
             <div id="gallery">
+              <a href="/#history-section">History</a>
+            </div>
+            <div>
               <a href="/#gallery-section">Gallery</a>
             </div>
             {/* <div>
@@ -132,14 +132,141 @@ function App() {
         </p>
         <br />
       </section>
-      {/* <section id="history-section">
+      <section id="history-section">
         <header>
           <h1>History</h1>
         </header>
-        <div className="placeholder">
-          <p>Coming Soon</p>
-        </div>
-      </section> */}
+        <p>
+          In February of 2020, Carol Reichert and Jerome Shereda purchased the
+          Shaker Second Family settlement, 78 acres at 194 Darrow Road in New
+          Lebanon, NY. We came from Newton, Massachusetts where we lived for 25
+          years and raised our two children. Jerome is a photographer and
+          musician. Carol is a writer and flamenco dancer. We restored our home
+          in Newton, an 1800s farmhouse and barn and loved the process of
+          bringing a dilapidated historic property back to life. After our
+          children moved out, we began looking for another project. Within five
+          minutes of seeing our future home, we knew This was it!
+        </p>
+        <br />
+        <p>
+          Within a month of taking ownership, we began the design for the
+          restoration and renovation of this historic site where over 80 Shakers
+          lived and worked from 1790 to 1938. The Brethren’s Workshop,
+          caretaker’s cottage, chair factory, and former dwelling ruins were all
+          in need of extensive work. Our love of history and restoration
+          compelled us to preserve as much of the original buildings as
+          possible, to use or repurpose existing materials, and to return the
+          building façades to their original Shaker designs.
+        </p>
+        <br />
+        <p>
+          During the summer of 2020, as we pulled brambles, scrambling vines,
+          and saplings from the lower property, we unearthed something amazing.
+          Behind a nearly impenetrable wall of thickets were the ruins of more
+          Shaker buildings. With the help of a local landscape construction
+          company, we discovered the remains of the Shaker sister’s workshop, a
+          barn, a hay ramp, an icehouse, and a dam. We discovered an underground
+          water system the Shakers used to irrigate their crops. We discovered
+          old plows, the icehouse tongs, oxen yokes, hundreds of shards of glass
+          used by the Shakers and a perfectly intact bottle of Shaker Hair
+          Restorer. As we collected our finds, one thing became clear to us.
+        </p>
+        <br />
+        <p>Our treasure must be shared.</p>
+        <br />
+        <p>
+          We decided to open an event venue and named it The Ruins at Sassafras
+          Farm--The Ruins for obvious reasons and Sassafras Farm because the
+          Shakers grew Sassafras trees and used the roots for medicine. Plus we
+          liked the fiesty, fun quality of the name Sassafras.
+        </p>
+        <br />
+        <p>The Shakers</p>
+        <br />
+        <p>
+          Our property is one of five Shaker settlements, or families, in The
+          Mount Lebanon Shaker Village, located on the west side of Mount
+          Lebanon
+        </p>
+        <br />
+        <p>
+          in New Lebanon, New York. Twelve years after founder Mother Ann Lee
+          and her eight followers migrated to America to establish an American
+          branch of the Shaker religion, the first Shaker building to be used
+          for religious worship exclusively was erected on Mt. Lebanon, at New
+          Lebanon, New York. Although the first Shaker settlement was
+          established in 1776 near Watervliet, New York, the second settlement
+          at New Lebanon served for approximately 150 years as the principal
+          Shaker community. Here the central ministry resided, and in the peak
+          years of Shakerism, there were 600 members and 100 buildings on 6,000
+          acres.
+        </p>
+        <br />
+        <p>
+          The village, which is listed on The National Register of Historic
+          Places, began in 1785. The village proper grew to consist of five
+          families arranged linearly along a stretch of road approximately 1.3
+          miles long. There were two peripheral families as well, the East
+          Family located to the northeast of the village, and the West Family,
+          located 1.75 miles southwest of the village. The idea of a Shaker
+          "family" unit was first employed at Mount Lebanon and was established
+          by Father Joseph Meacham. As he defined it, a family contained roughly
+          60 adults, divided as equally as possible between the sexes. Each
+          family had its own supervising elders, its own fields and workshops,
+          and its own residence. The Shaker precept of celibacy dictated that
+          the dwelling houses be divided into brothers wings and sisters wings,
+          and that separate workshops be built to sustain this segregation.
+          Eventually separate quarters for children were adopted as well. Thus,
+          each of the five families; the North, Church, Center, Second, and
+          South Families, had its own dwelling house (or houses as the community
+          expanded) and workshops and outbuildings.{' '}
+        </p>
+        <br />
+        <p>
+          The Shakers attempted to assign each family specific crafts and
+          duties, which were also regulated by sex, and so each family had
+          workshops for its own particular pursuits. The construction dates of
+          the Mount Lebanon structures range from 1785 to a general cutoff date
+          of 1876. Following a disastrous fire in 1875 which destroyed several
+          frame buildings, brick replacements were erected.{' '}
+        </p>
+        <br />
+        <p>
+          After this period, little significant building was done. The West
+          Family buildings date from more modern times and cannot be considered
+          sufficiently integral to be included in the landmark.
+        </p>
+        <br />
+        <p>
+          The Shaker style of architecture is characterized by functionalism and
+          a clean simplicity of form. Materials range from frame through brick
+          and stone masonry. There were no standard blueprints, the individual
+          builders and carpenters fitted a building's form to its function and
+          followed their basic tenets of sturdiness and simplicity.
+        </p>
+        <br />
+        <p>
+          With the decline in Shakerism, the Mount Lebanon community began to
+          atrophy. In 1929-30, the Lebanon (now the Darrow) School purchased 300
+          acres and forty buildings centered around the Church Family. The few
+          remaining Shakers moved to the Second Family. In 1947, following the
+          death of the last Mount Lebanon Shaker, the whole village was sold,
+          the Darrow School acquiring most of the North, Center and Second
+          Families. The South Family was acquired by a summer camp. The East
+          Family had since been completely dismantled.
+        </p>
+        <br />
+        <p>
+          At the present time, the Darrow School owns the North, Church and
+          Center Families, except for one of the northernmost buildings of the
+          North Family. The Second Family (The Ruins at Sassafras Farm) is now a
+          private residence and the South Family is owned and inhabited by a
+          religious community called The Abode of the Message. There are at
+          least thirty-four of the original Shaker buildings left in these five
+          families in addition to scattered sheds and outbuildings with
+          undetermined origins.
+        </p>
+      </section>
       <section id="gallery-section">
         <Gallery galleryImages={galleryImages} />
       </section>
