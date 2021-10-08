@@ -72,11 +72,10 @@ function App() {
           defines unique—truly one of a kind.
         </p>
         <br />
-        
       </section>
       <section id="map-section" className="yellow-section">
         <header>
-          <h1>Map</h1>
+          <h1>The Property</h1>
         </header>
         <p>
           Host your rehearsal dinner in the historic <b>barn ruins</b> as flames
@@ -126,10 +125,10 @@ function App() {
         </p>
         <br />
         <p>
-          <b>The Ruins at Sassafras Farm</b> offers so much more: hiking paths,
-          a wild flower meadow, perennial gardens, 200-year old stone walls,
-          situated on the border between Massachusetts and New York on historic
-          Mt. Lebanon.
+          Situated on the border between Massachusetts and New York on historic
+          Mt. Lebanon, <b>The Ruins at Sassafras Farm</b> offers so much more:
+          hiking paths, a wild flower meadow, perennial gardens, and 200-year
+          old stone walls.
         </p>
       </section>
       <section id="history-section">
