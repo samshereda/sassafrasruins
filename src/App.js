@@ -147,9 +147,10 @@ function App() {
           in Newton, an 1800s farmhouse and barn and loved the process of
           bringing a dilapidated historic property back to life. After our
           children moved out, we began looking for another project. Within five
-          minutes of seeing our future home, we knew This was it!
+          minutes of seeing our future home, we knew.
         </p>
-        <br />
+
+        <h2>This was it!</h2>
         <p>
           Within a month of taking ownership, we began the design for the
           restoration and renovation of this historic site where over 80 Shakers
@@ -184,15 +185,11 @@ function App() {
         <p>
           Our property is one of five Shaker settlements, or families, in The
           Mount Lebanon Shaker Village, located on the west side of Mount
-          Lebanon
-        </p>
-        <br />
-        <p>
-          in New Lebanon, New York. Twelve years after founder Mother Ann Lee
-          and her eight followers migrated to America to establish an American
-          branch of the Shaker religion, the first Shaker building to be used
-          for religious worship exclusively was erected on Mt. Lebanon, at New
-          Lebanon, New York. Although the first Shaker settlement was
+          Lebanon in New Lebanon, New York. Twelve years after founder Mother
+          Ann Lee and her eight followers migrated to America to establish an
+          American branch of the Shaker religion, the first Shaker building to
+          be used for religious worship exclusively was erected on Mt. Lebanon,
+          at New Lebanon, New York. Although the first Shaker settlement was
           established in 1776 near Watervliet, New York, the second settlement
           at New Lebanon served for approximately 150 years as the principal
           Shaker community. Here the central ministry resided, and in the peak
