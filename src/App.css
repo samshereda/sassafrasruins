@@ -248,17 +248,19 @@ footer {
 #contact_form {
   text-align: center;
   /* font-size: x-large; */
-  max-width: 700px;
+  max-width: 400px;
   margin: auto;
 }
 
 input {
   width: 100%;
   /* font-size: large; */
+  margin-right: 1em;
 }
 
 #contact_form > textarea {
   resize: none;
+  width: 100%;
 }
 
 #contact_form > div {
@@ -271,6 +273,14 @@ input {
 
 #contact_form > #name > label {
   flex: 0 0 5em;
+}
+
+#phone {
+  width: 6em;
+}
+
+#date {
+  width: 8em;
 }
 
 @media only screen and (min-width: 900px) {

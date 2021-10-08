@@ -14,7 +14,7 @@ function ContactForm() {
         below, and we’ll get back to you soon.
       </p>
       <br />
-      <div id="name">
+      <div>
         <label htmlFor="first_name">First Name* </label>
         <input id="first_name" name="first_name" type="text" required />
         <ValidationError
@@ -22,6 +22,9 @@ function ContactForm() {
           field="first_name"
           errors={state.errors}
         />
+      </div>
+      <br />
+      <div>
         <label htmlFor="last_name">Last Name* </label>
         <input name="last_name" type="text" id="last_name" required />
         <ValidationError
@@ -72,6 +75,7 @@ function ContactForm() {
           errors={state.errors}
         />
       </div>
+      <br />
       <label htmlFor="comments">Additional Comments </label>
       <br />
       <textarea name="comments" id="comments"></textarea>
