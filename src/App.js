@@ -28,18 +28,18 @@ function App() {
             <div>
               <a href="/#about-section">About</a>
             </div>
-            <div>
-              <a href="/#map-section">Map</a>
-            </div>
             <div id="history">
-              <a href="/#history-section">History</a>
+              <a href="/#map-section">Our Property</a>
             </div>
+            {/* <div id="history">
+              <a href="/#history-section">History</a>
+            </div> */}
             <div id="gallery">
               <a href="/#gallery-section">Gallery</a>
             </div>
-            <div>
+            {/* <div>
               <a href="/#pricing-section">Pricing</a>
-            </div>
+            </div> */}
             <div>
               <a href="/#contact-section">Contact</a>
             </div>
@@ -75,7 +75,7 @@ function App() {
       </section>
       <section id="map-section" className="yellow-section">
         <header>
-          <h1>The Property</h1>
+          <h1>Our Property</h1>
         </header>
         <p>
           Host your rehearsal dinner in the historic <b>barn ruins</b> as flames
@@ -131,25 +131,25 @@ function App() {
           old stone walls.
         </p>
       </section>
-      <section id="history-section">
+      {/* <section id="history-section">
         <header>
           <h1>History</h1>
         </header>
         <div className="placeholder">
           <p>Coming Soon</p>
         </div>
-      </section>
-      <section id="gallery-section" className="yellow-section">
+      </section> */}
+      <section id="gallery-section">
         <Gallery galleryImages={galleryImages} />
       </section>
-      <section id="pricing-section">
+      {/* <section id="pricing-section">
         <header>
           <h1>Pricing</h1>
         </header>
         <div className="placeholder">
           <p>Coming Soon</p>
         </div>
-      </section>
+      </section> */}
       <section id="contact-section" className="yellow-section">
         <header>
           <h1>Contact</h1>
