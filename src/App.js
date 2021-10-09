@@ -304,7 +304,10 @@ function App() {
         </a>
       </div>
       <footer>
-        <p> </p>
+        <p>
+          Photography: <a href="www.sheryllanzel.com/">Sheryl Lanzel</a> and{' '}
+          <a href="www.janefeldman.com/">Jane Feldman</a>
+        </p>
         <p>
           The Ruins at Sassafras Farm, 194 Darrow Road, New Lebanon NY 12125,
           USA
