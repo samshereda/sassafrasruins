@@ -55,7 +55,7 @@ function App() {
           );
         })}
       </Carousel>
-      <section id="about-section">
+      <section id="about-section" className="text-section">
         <header>
           <h1 id="announcement">Opening Summer 2022</h1>
         </header>
@@ -73,7 +73,7 @@ function App() {
         </p>
         <br />
       </section>
-      <section id="map-section" className="yellow-section">
+      <section id="map-section" className="yellow-section text-section">
         <header>
           <h1>Our Property</h1>
         </header>
@@ -134,7 +134,7 @@ function App() {
         </p>
         <br />
       </section>
-      <section id="history-section">
+      <section id="history-section" className="text-section">
         <header>
           <h1>History</h1>
         </header>
@@ -262,7 +262,7 @@ function App() {
           undetermined origins.
         </p>
       </section>
-      <section id="gallery-section">
+      <section id="gallery-section" className="yellow-section">
         <Gallery galleryImages={galleryImages} />
       </section>
       {/* <section id="pricing-section">
@@ -273,7 +273,7 @@ function App() {
           <p>Coming Soon</p>
         </div>
       </section> */}
-      <section id="contact-section" className="yellow-section">
+      <section id="contact-section" className="text-section">
         <header>
           <h1>Contact</h1>
         </header>

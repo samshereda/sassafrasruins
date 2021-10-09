@@ -170,13 +170,17 @@ h3 {
 
 section {
   color: #395a7b;
-  padding: 1em;
+  padding: 5px;
   box-sizing: border-box;
   text-align: center;
 }
 
 .yellow-section {
   background-color: #f6dfa4;
+}
+
+.text-section {
+  padding-bottom: 2em;
 }
 
 .placeholder {
