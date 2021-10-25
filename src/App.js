@@ -57,7 +57,7 @@ function App() {
       </Carousel>
       <section id="about-section" className="text-section">
         <header>
-          <h1 id="announcement">Opening Summer 2022</h1>
+          <h1 id="announcement">Coming Soon</h1>
         </header>
         <p>
           On a mountaintop in the Hudson Valley, nestled between the Berkshires
