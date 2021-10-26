@@ -21,7 +21,8 @@ const galleryImages = importAll(
 function App() {
   return (
     <div className="App">
-      <header id="main-header">
+      Under Construction
+      {/* <header id="main-header">
         <div className="header-inner">
           <img id="logo" src={logo} className="App-logo" alt="logo" />
           <nav>
@@ -37,9 +38,6 @@ function App() {
             <div>
               <a href="/#gallery-section">Gallery</a>
             </div>
-            {/* <div>
-              <a href="/#pricing-section">Pricing</a>
-            </div> */}
             <div>
               <a href="/#contact-section">Contact</a>
             </div>
@@ -265,14 +263,6 @@ function App() {
       <section id="gallery-section" className="yellow-section">
         <Gallery galleryImages={galleryImages} />
       </section>
-      {/* <section id="pricing-section">
-        <header>
-          <h1>Pricing</h1>
-        </header>
-        <div className="placeholder">
-          <p>Coming Soon</p>
-        </div>
-      </section> */}
       <section id="contact-section" className="text-section">
         <header>
           <h1>Contact</h1>
@@ -313,7 +303,7 @@ function App() {
           USA
         </p>
         <p>617-990-4359</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
