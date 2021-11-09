@@ -1,4 +1,5 @@
 import logo from './images/logo.png';
+import map from './images/map_painting.jpg';
 import './App.css';
 import Carousel, { CarouselItem } from './Carousel';
 import Gallery, { GalleryItem } from './Gallery';
@@ -21,8 +22,8 @@ const galleryImages = importAll(
 function App() {
   return (
     <div className="App">
-      Under Construction
-      {/* <header id="main-header">
+      {/* Under Construction */}
+      <header id="main-header">
         <div className="header-inner">
           <img id="logo" src={logo} className="App-logo" alt="logo" />
           <nav>
@@ -72,9 +73,7 @@ function App() {
         <br />
       </section>
       <section id="map-section" className="yellow-section text-section">
-        <header>
-          <h1>Our Property</h1>
-        </header>
+        <img src={map} id="map" alt="map of the property" />
         <p>
           We are located a little over two hours from Boston and two and a half
           hours from New York city. Our property offers a variety of settings
@@ -303,7 +302,7 @@ function App() {
           USA
         </p>
         <p>617-990-4359</p>
-      </footer> */}
+      </footer>
     </div>
   );
 }

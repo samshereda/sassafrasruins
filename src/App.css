@@ -290,6 +290,13 @@ input {
   width: 8em;
 }
 
+#map {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 3em;
+  object-fit: contain;
+}
+
 @media only screen and (min-width: 850px) {
   #about {
     margin-left: 80px;
