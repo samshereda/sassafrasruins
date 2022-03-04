@@ -66,7 +66,7 @@ function App() {
         <h2>Step back in history to celebrate your future.</h2>
 
         <p>
-          Once the settlement of 80 Shakers, The Ruins at Sassafras Farm
+          Once the settlement of 67 Shakers, The Ruins at Sassafras Farm
           resonates with history and natural beauty and promises a setting that
           defines unique—truly one of a kind.
         </p>
@@ -150,7 +150,7 @@ function App() {
         <h2>This was it!</h2>
         <p>
           Within a month of taking ownership, we began the design for the
-          restoration and renovation of this historic site where over 80 Shakers
+          restoration and renovation of this historic site where over 67 Shakers
           lived and worked from 1790 to 1938. The Brethren’s Workshop,
           caretaker’s cottage, chair factory, and former dwelling ruins were all
           in need of extensive work. Our love of history and restoration
@@ -266,7 +266,69 @@ function App() {
         <header>
           <h1>Contact</h1>
         </header>
-        <ContactForm />
+        <iframe
+          title="Weven Contact Form"
+          id="contact-form"
+          src="https://weven.co/embed/lead-form/534"
+          sandbox="allow-same-origin allow-top-navigation allow-scripts allow-forms allow-popups"
+          width="655"
+          style={{
+            border: 'none',
+            maxWidth: '100%',
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+          }}
+          onload={() => {
+            var self = this;
+            window.addEventListener(
+              'message',
+              function (e) {
+                if (
+                  e.source === self.contentWindow &&
+                  e.data &&
+                  e.data.width &&
+                  e.data.height
+                ) {
+                  self.width = e.data.width;
+                  self.height = e.data.height;
+                }
+              },
+              false
+            );
+          }}
+        ></iframe>
+        <p>
+          We’re also pleased to offer our wedding clients complimentary access
+          to an online planning portal to support the coordination of their
+          event at The Ruins at Sassafras Farm.
+        </p>
+
+        <ul>
+          <h3>This portal comes full of fun features like:</h3>
+          <li>A planning checklist to help you stay on track.</li>
+          <li>
+            A custom wedding website builder to share important event details
+            with guests.
+          </li>
+          <li>
+            Vendor recommendations and a place to share vendor information with
+            us, your host.
+          </li>
+          <li>A place to store and share documents.</li>
+          <li>A messaging system to send us questions as needed.</li>
+          <li>AND MORE!</li>
+        </ul>
+        <a
+          id="weven-badge"
+          href="https://weven.co/wedding-venue/534/The-Ruins-at-Sassafras-Farm"
+          title="Powered By Weven."
+        >
+          <img
+            src="https://cdn.weven.co/400x400/misc-img/Powered-By-Weven.png"
+            alt="Powered By Weven. Partner since 2022"
+          />
+        </a>
       </section>
       <div className="pre-footer">
         <a href="https://www.instagram.com/sassafras.inc/">

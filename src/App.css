@@ -244,7 +244,7 @@ footer > p > a {
 
 .closebtn {
   transform: translate(-5%, 0%);
-  /* font-size: xxx-large; */
+  font-size: xxx-large;
   z-index: 3;
   position: fixed;
   color: white;
@@ -252,49 +252,57 @@ footer > p > a {
   width: 100%;
 }
 
-#contact_form {
-  text-align: center;
-  /* font-size: x-large; */
-  max-width: 400px;
-  margin: auto;
-}
-
-input {
-  width: 100%;
-  /* font-size: large; */
-  margin-right: 1em;
-}
-
-#contact_form > textarea {
-  resize: none;
-  width: 100%;
-}
-
-#contact_form > div {
-  display: flex;
-}
-
-#contact_form > div > label {
-  flex: 0 0 9em;
-}
-
-#contact_form > #name > label {
-  flex: 0 0 5em;
-}
-
-#phone {
-  width: 6em;
-}
-
-#date {
-  width: 8em;
-}
-
 #map {
   max-width: 600px;
   width: 100%;
   margin-bottom: 3em;
   object-fit: contain;
+}
+
+#contact-form {
+  height: 1090px;
+}
+
+#weven-badge {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 200px;
+  max-width: 100%;
+}
+
+#weven-badge > img {
+  max-width: 95%;
+}
+
+ul {
+  max-width: 600px;
+  margin: auto;
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul > h3 {
+  margin: 10px;
+}
+
+li {
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+@media only screen and (min-width: 420px) {
+  #contact-form {
+    height: 900px;
+  }
+}
+
+@media only screen and (min-width: 648px) {
+  #contact-form {
+    height: 810px;
+  }
 }
 
 @media only screen and (min-width: 850px) {
